@@ -86,7 +86,7 @@ export default function PomodoroPage() {
 
         <Box p={2}>
 
-          <Typography variant="h2">
+          <Typography variant="h3">
             {value.lable}
           </Typography>
 
@@ -116,8 +116,8 @@ export default function PomodoroPage() {
 
           {/* NEXT */}
           <Box mx={0.5}>
-            <Button>
-              <SkipNext onClick={ToggleModes} />
+            <Button onClick={ToggleModes}>
+              <SkipNext />
             </Button>
           </Box>
 
