@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Quote from '../components/Quote.component';
 import { Button, Container, Box, createMuiTheme, ThemeProvider } from '@material-ui/core';
 import { connect } from 'react-redux'
-import { FetchQuotes } from '../../store/quotes/store'
+import { FetchQuotes } from '../../store/store'
 
 const theme = createMuiTheme({
   typography: {
